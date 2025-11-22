@@ -38,7 +38,6 @@ Les anciennes versions de démonstration sur GitHub ont été nettoyées et remp
 Une configuration propre et prête à l’emploi pour Visual Studio Code, qui garde tes fichiers cohérents, correctement indentés et organisés — sans dépendre de Prettier, d’extensions externes ou de scripts personnalisés par projet.
 
 Ce pack contient la version publique de démonstration.
-La version complète (avec scripts prêts à l’emploi : clean.py, convert.py, space.py, tâches automatisées, guide d’installation, démonstrations…) est disponible sur Gumroad, Itch ou Ko-Fi.
 
 ## Ce que fait ce pack
 

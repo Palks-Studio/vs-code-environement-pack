@@ -23,7 +23,7 @@
   </a>
 </p>
 
-# VS Code – Pack de Formatage Automatique (Version Lite)
+# VS Code – Pack de Formatage (Version Lite)
 
 ---
 
@@ -38,6 +38,7 @@ Les anciennes versions de démonstration sur GitHub ont été nettoyées et remp
 Une configuration propre et prête à l’emploi pour Visual Studio Code, qui garde tes fichiers cohérents, correctement indentés et organisés — sans dépendre de Prettier, d’extensions externes ou de scripts personnalisés par projet.
 
 Ce pack contient la version publique de démonstration.
+La version complète (avec scripts prêts à l’emploi : clean.py, convert.py, space.py, tâches automatisées, guide d’installation, démonstrations…) est disponible sur Gumroad, Itch.io ou Ko-Fi.
 
 ## Ce que fait ce pack
 
@@ -57,7 +58,7 @@ Ce pack contient la version publique de démonstration.
 ## Structure (Version publique)
 
 ```
-VSCode_Pack_Formatage_Automatique/ (Version Lite)
+VSCode_Pack_Formatage/ (Version Lite)
 ├── README_FR.md                 ← Documentation principale (publique)
 ├── LICENCE.txt                  ← Licence propriétaire (Palks Studio)
 ├── version_publique/
@@ -126,9 +127,9 @@ Les fichiers `.mp4` présents dans ce dossier (convert_lf.mp4, indent_clean.mp4,
 - Exemples avant/après, vidéos de démonstration, support Discord
 
 **Version complète disponible ici**
-- [Gumroad](https://palks.gumroad.com)  
-- [Itch.io](https://palks-studio.itch.io)  
-- [Ko-fi](https://ko-fi.com/palksstudio)
+- Gumroad : https://palks.gumroad.com  
+- Itch.io : http://palks-studio.itch.io  
+- Ko-fi : https://ko-fi.com/palksstudio
 
 ### Important — Comportement des scripts (version complète uniquement)
 
@@ -143,10 +144,12 @@ Les scripts de formatage (`clean.py`, `convert.py`, `space.py`) ne modifient pas
 Avant toute modification, un dossier `_backups/` est créé pour sauvegarder les fichiers d’origine.
 
 **À propos du formatage Python**
+
 Le formatage automatique Python via autopep8 ne fonctionne que si tu exécutes la tâche correspondante dans VS Code (Menu “Exécuter une tâche…”).
 Cette action ne s’applique qu’au fichier Python actuellement ouvert, jamais à l’ensemble du projet.
 
 **Reindentation manuelle (Ctrl + A puis Ctrl + R)**
+
 Applique une réindentation uniquement sur le fichier actif (`HTML`, `CSS`, `JS`, `JSON`, etc.)
 Exception : les fichiers `.py` ne sont pas réindentés par cette action — ils utilisent autopep8 à la place.
 
@@ -179,3 +182,10 @@ Simplicité, clarté, efficacité.
 - Itch.io : http://palks-studio.itch.io  
 - Ko-fi : https://ko-fi.com/palksstudio  
 - Twitter (X) : https://x.com/PalksStudio
+
+---
+
+## Signature
+
+**Palks Studio — Version 1.1**  
+Compatible with Visual Studio Code and Prettier

@@ -23,6 +23,9 @@
   </a>
 </p>
 
+**All documentation, scripts, and functions are fully in English.**
+Only the demo videos show French system elements (VS Code tabs, terminal messages), because they depend on my OS language.
+
 # VS Code – Formatting Pack (Lite Version)
 
 ---

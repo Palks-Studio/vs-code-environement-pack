@@ -209,4 +209,6 @@ transparente et prévisible.
 **Palks Studio — Version 1.1**  
 Compatible avec Visual Studio Code (Prettier désactivé par défaut).
 
+- https://palks-studio.com
+
 © Palks Studio — voir LICENCE_FR.md

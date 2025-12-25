@@ -189,7 +189,7 @@ This ensures a transparent and predictable evaluation experience.
 - No external services  
 - Works fully offline
 
-## Signature
+---
 
 **Palks Studio — Version 1.1**  
 Compatible with Visual Studio Code (Prettier disabled by default).

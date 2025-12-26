@@ -23,7 +23,7 @@
   </a>
 </p>
 
-# VS Code – Pack de Formatage (Version Lite)
+# Pack de Formatage VS Code (Version Lite)
 
 **Version 1.1 — Démo publique**
 
@@ -42,7 +42,7 @@ Aucune automatisation.
 ## Structure (Version publique)
 
 ```
-VSCode_Pack_Formatage/ (Version lite)
+vcsode_pack_formatage_lite/
 ├── README.md                 ← Documentation publique de la version Lite
 │                             (périmètre limité, aucune modification de fichiers)
 │
@@ -200,5 +200,5 @@ transparente et prévisible.
 **Palks Studio — Version 1.1**  
 Compatible avec Visual Studio Code (Prettier désactivé par défaut).
 
-© Palks Studio — voir LICENSE.md
+© Palks Studio — voir LICENCE.md
 - https://palks-studio.com

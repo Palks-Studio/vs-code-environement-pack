@@ -43,34 +43,34 @@ Aucune automatisation.
 
 ```
 vcsode_pack_formatage_lite_v1.1/
-├── README.md                 ← Documentation publique de la version Lite
+├── README.md                 → Documentation publique de la version Lite
 │                             (périmètre limité, aucune modification de fichiers)
 │
-├── LICENCE.md                ← LICENCE.md — Conditions d’utilisation et cadre légal
+├── LICENCE.md                → LICENCE.md — Conditions d’utilisation et cadre légal
 │
 ├── version_publique/
 │   └── .vscode/
-│       ├── settings.json     ← Réglages passifs de l’éditeur
+│       ├── settings.json     → Réglages passifs de l’éditeur
 │       │                       - UTF-8
 │       │                       - fins de ligne LF
 │       │                       - indentation visuelle (4 espaces)
 │       │                       - affichage des marges
 │       │                       - aucun formatage automatique
 │       │
-│       ├── keybindings.json  ← Raccourci unique :
+│       ├── keybindings.json  → Raccourci unique :
 │       │                     Alt + M → afficher / masquer la minimap
 │       │
-│       └── tasks.json        ← Tâche VS Code (lecture seule) :
+│       └── tasks.json        → Tâche VS Code (lecture seule) :
 │                               - Margin detection (read-only)
 │                               - analyse des marges
 │                               - aucun fichier modifié
 │
-├── example_structure.txt     ← Aperçu de l’arborescence et des fonctionnalités
+├── example_structure.txt     → Aperçu de l’arborescence et des fonctionnalités
 │                             de la version complète (Pro)
 │
 └── docs/
     └── images/
-        └── Palks_Studio.png  ← Visuel propriétaire (branding)
+        └── Palks_Studio.png  → Visuel propriétaire (branding)
 ```
 
 

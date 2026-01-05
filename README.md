@@ -43,34 +43,34 @@ No automation.
 
 ```
 vscode_formatting_pack_lite_v1.1/
-├── README.md                 ← Public documentation for the Lite version
+├── README.md                 → Public documentation for the Lite version
 │                             (limited scope, no file modification)
 │   
-├── LICENSE.md                ← Terms of use and legal framework
+├── LICENSE.md                → Terms of use and legal framework
 │
 ├── public_version/
 │   └── .vscode/
-│       ├── settings.json    ← Passive editor settings
+│       ├── settings.json    → Passive editor settings
 │       │                      - UTF-8 encoding
 │       │                      - LF line endings
 │       │                      - visual indentation (4 spaces)
 │       │                      - visible whitespace boundaries
 │       │                      - no automatic formatting
 │       │
-│       ├── keybindings.json ← Single shortcut:
+│       ├── keybindings.json → Single shortcut:
 │       │                      Alt + M → toggle the minimap
 │       │
-│       └── tasks.json       ← VS Code task (read-only):
+│       └── tasks.json       → VS Code task (read-only):
 │                              - Margin detection
 │                              - analyzes whitespace and margins
 │                              - no file is ever modified
 │
-├── example_structure.txt    ← Overview of the full (Pro) version structure
+├── example_structure.txt    → Overview of the full (Pro) version structure
 │                            and available features
 │
 └── docs/
     └── images/
-        └── Palks_Studio.png ← Proprietary branding asset
+        └── Palks_Studio.png → Proprietary branding asset
 ```
 
 

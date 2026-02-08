@@ -1,8 +1,0 @@
-[
-
-    {
-        "key": "alt+m",
-        "command": "editor.action.toggleMinimap",
-        "when": "editorTextFocus"
-    }
-]

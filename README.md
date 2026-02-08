@@ -54,9 +54,12 @@ vscode_formatting_pack_V1.1/
 ├── space.py                            → Margin analysis (read-only)
 ├── backup.py                           → Timestamped backup of the file on save (Ctrl + S)
 │                                         via the Auto-Backup task
+│ 
+├── LICENSE.md                          → Terms of use and legal framework
+│ 
 └── docs/
-    ├── TECHNICAL_README.md             → Internal notes, maintenance, future versions
-    ├── LICENSE.md                      → Terms of use and legal framework
+    ├── TECHNICAL_README.md             → Technical documentation and internal structure
+    ├── README_COMMERCIAL.md            → Project overview and public presentation
     ├── INSTALL.md                      → Installation and usage guide
     │
     └── examples/                       → (Optional) Detailed before/after formatting examples
@@ -400,7 +403,6 @@ Compatible with isolated environments
 - `tasks.json` — VS Code tasks for cleanup and analysis  
 - `launch.json` — manual execution of Python scripts  
 - `clean.py`, `convert.py`, `space.py`, `backup.py` — maintenance scripts  
-- `INSTALL.md` — installation and usage guide  
 - `docs/` — technical documentation and examples  
 - `LICENSE.md` — Terms of use and legal Framework
 

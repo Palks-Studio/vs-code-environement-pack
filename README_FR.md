@@ -1,7 +1,7 @@
 <p align="center">
   <img src="docs/images/vscode-formatting-pack.png"
        alt="VS Code formatting pack — before and after formatting example"
-       width="600">
+       width="1200">
 </p>
 
 > 🇫🇷 Français | [🇬🇧 English](./README.md)

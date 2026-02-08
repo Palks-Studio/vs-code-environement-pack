@@ -56,8 +56,8 @@ vscode_pack_formatage_v1.1/
 ├── LICENCE.md                          → Conditions d’utilisation et cadre légal
 │
 └── docs/
-    ├── TECHNICAL_README.md             → Documentation technique interne, maintenance et évolutions futures
-    ├── LICENCE.md                      → Conditions d’utilisation et cadre légal
+    ├── README_COMMERCIAL.md            → Présentation du pack et usage public
+    ├── README_TECHNIQUE.md             → Documentation technique et fonctionnement interne
     ├── INSTALL.md                      → Guide d’installation et d’utilisation
     │
     └── exemples/                       → (Optionnel) Exemples détaillés avant / après formatage

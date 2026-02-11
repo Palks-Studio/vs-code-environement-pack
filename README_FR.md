@@ -36,6 +36,25 @@ mais de proposer un **ensemble d’outils maîtrisés**,
 permettant de garder le contrôle sur la structure, la lisibilité et la cohérence du code,  
 quel que soit le système d’exploitation.
 
+---
+
+## Pourquoi ce pack existe
+
+La plupart des éditeurs modifient automatiquement le code lors de l’enregistrement des fichiers.  
+Bien que pratique, ce fonctionnement peut introduire des changements inattendus,  
+des différences de formatage ou des conflits entre extensions.
+
+Ce pack adopte l’approche inverse :  
+
+- aucun formatage automatique  
+- aucune action cachée  
+- des outils manuels exécutés uniquement lorsque nécessaire
+
+L’objectif est de conserver un code stable, lisible et prévisible,  
+tout en laissant le contrôle total au développeur.
+
+---
+
 ## Structure du pack
 
 ```
@@ -96,6 +115,9 @@ vscode_pack_formatage_v1.1/
 ---
 
 ## Nouveautés de la version 1.1
+
+La section suivante décrit en détail la configuration technique incluse.
+La plupart des utilisateurs peuvent utiliser l’environnement sans avoir besoin de lire cette partie intégralement.
 
 ### Trois modes d’exécution pour les scripts
 
@@ -425,6 +447,18 @@ Compatible avec des environnements isolés
 - Ne nécessite aucune extension payante ni service externe  
 - Compatible avec la fonctionnalité **Settings Sync** de VS Code  
 - Adapté à un usage **individuel** comme **collaboratif** (workspaces partagés)
+
+---
+
+## Workflow typique
+
+1. Ouvrir le projet dans Visual Studio Code  
+2. Travailler normalement et enregistrer les fichiers (Ctrl + S)  
+3. Une sauvegarde locale est créée automatiquement  
+4. Lancer les tâches de nettoyage ou de conversion uniquement lorsque nécessaire  
+   (Terminal → Exécuter une tâche…)
+
+Aucune action ne s’exécute automatiquement sans intervention de l’utilisateur.
 
 ---
 

@@ -1,6 +1,6 @@
 <p align="center">
-  <img src="docs/images/vscode-formatting-pack.png"
-       alt="VS Code formatting pack — before and after formatting example"
+  <img src="docs/images/vscode-pack-environnement.png"
+       alt="VS Code pack environnement — exemple avant et après formatage"
        width="1200">
 </p>
 
@@ -10,7 +10,7 @@
 ![Python](https://img.shields.io/badge/Python-3.x-yellow.svg)
 ![Plateforme](https://img.shields.io/badge/OS-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)
 ![License](https://img.shields.io/badge/License-LICENSE.md-lightgreen.svg)
-![VS Code](https://img.shields.io/badge/VSCode-Formatting%20Pack-0095b1?style=flat)
+![VS Code](https://img.shields.io/badge/VSCode-Pack%20Environnement-0095b1?style=flat)
 ![Local](https://img.shields.io/badge/Setup-Local%20Only-151b1c?style=flat)
 ![No Extensions](https://img.shields.io/badge/Dependencies-None-0a5645?style=flat)
 
@@ -20,10 +20,7 @@
   </a>
 </p>
 
-# VSCode – Pack de Formatage (Version 1.1)
-
-> Ce dépôt constitue une présentation technique et une documentation du projet.  
-> Il ne contient pas de code source téléchargeable ni de fichiers de production.
+# VSCode – Pack environnement (Version 1.1)
 
 Un environnement de travail **configuré** pour Visual Studio Code.
 
@@ -58,7 +55,7 @@ tout en laissant le contrôle total au développeur.
 ## Structure du pack
 
 ```
-vscode_pack_formatage_v1.1/
+vscode_pack_environnement_v1.1/
 │
 ├── .vscode/
 │   ├── extensions.json                 → Désactivation locale des extensions conflictuelles (Prettier, Run on Save)
@@ -85,7 +82,7 @@ vscode_pack_formatage_v1.1/
     ├── README_TECHNIQUE.md             → Documentation technique et fonctionnement interne
     ├── INSTALL.md                      → Guide d’installation et d’utilisation
     │
-    └── exemples/                       → (Optionnel) Exemples détaillés avant / après formatage
+    └── exemples/
         ├── avant.py                    → Fichiers exemples non structurés
         ├── apres.py                    → Versions propres générées par le pack
         ├── convert_lf.mp4              → Fichiers CRLF convertis automatiquement en LF
